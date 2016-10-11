@@ -44,7 +44,7 @@ Contudo, a este métodos estão associadas várias desvantagens:
 
 Apesar da utilização do método ágil em *open source* ser vantajosa relativamente à utilização dos restantes métodos, este falha pela falta de documentação produzida.
 
-### **Projeto *Seafile*** 
+### **Projeto Seafile ** 
 Em relação ao projeto escolhido, deparámo-nos com algumas dificuldades, nomeadamente:
 
         - fazer build ao projeto;
