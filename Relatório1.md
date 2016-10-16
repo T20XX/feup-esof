@@ -53,35 +53,49 @@ Como consequência desta volatilidade, é frequente lançarem-se novas funcional
 
 Este processo apresenta vários pontos que favorecem a sua escolha para o uso num projeto deste tipo e dimensão. Apesar de ser um processo adaptativo permite incorporar um planeamento antes de se partir para a execução da parte seguinte. Além disso apresenta várias vantagens:
 	
-	- Apresenta um custo baixo de adaptação a novos requisitos e sugestões dos utilizadores;
-	- As reações ao software são mais frequentes e mais precoces o que o previne de ser um fracasso;
-	- Os requisitos mais morosos podem ficar pendentes para as partes a serem produzidas mais tarde sem afetar a entrega das restantes partes.
+	- apresenta um custo baixo de adaptação a novos requisitos e sugestões dos utilizadores;
+	- as reações ao software são mais frequentes e mais precoces o que o previne de ser um fracasso;
+	- os requisitos mais morosos podem ficar pendentes para as partes a serem produzidas mais tarde sem afetar a entrega das restantes partes.
 
 Contudo existem alguns aspetos que é preciso ter em conta ao utilizar este processo:
 
-	- A estrutura global do sistema tende a degradar-se com todas as alterações efetuadas;
-	- A reutilização do código pode ser comprometida visto que não é possível prever com precisão as alterações a efetuar nas partes seguintes;
-	- O estabelecimento de um contrato inicial pode não ser possível visto que os requisitos vão incrementando a par com o software.
+	- a estrutura global do sistema tende a degradar-se com todas as alterações efetuadas;
+	- a reutilização do código pode ser comprometida visto que não é possível prever com precisão as alterações a efetuar nas partes seguintes;
+	- o estabelecimento de um contrato inicial pode não ser possível visto que os requisitos vão incrementando a par com o software.
 
 O último aspeto não afeta no entanto o projeto Seafile visto que provém de uma iniciativa de um grupo de estudantes e que não foi sujeita a qualquer tipo de investimento inicial externo.
 
-### **Modelo de Boehm’s spiral**
+### **Comparação com outros métodos**
 
 Como alternativa, temos o **modelo de Boehm’s spiral**. Este modelo é iterativo, baseando-se em 4 fases ordenadas:
-planeamento, análise de risco, engenharia e avaliação.
+Planeamento, análise de risco, engenharia e avaliação.
 Com este método os desenvolvedores iriam tirar proveito de várias maneiras, tais como:
 	
-	-modelo muito vantajoso em relação a projetos de grande dimensão;
-	-o software apresenta-se cedo;
-	-elevada análise de risco.
+	- modelo muito vantajoso em relação a projetos de grande dimensão;
+	- o software apresenta-se cedo;
+	- elevada análise de risco.
 
 Por outro lado, este projeto começou por um grupo de estudantes,e nesse aspeto este modelo tem desvantagens 
 que poderiam levar a este modelo não ser escolhido tais como:
 
-	-modelo de muito custo;
-	-elevada quantidade de análise exige muitas especificações;
-	-o sucesso depende muito da análise de risco.
+	- modelo de custo elevado;
+	- elevada quantidade de análise exige muitas especificações;
+	- o sucesso depende muito da análise de risco.
 
+Se pensarmos num modelo capaz de complementar o processo escolhido temos o **modelo em Cascata**. Este modelo é preditivo e sequencial e baseia-se na divisão do desenvolvimento do projeto em várias fases, em que cada fase depende da terminação da anterior.
+Se for bem implementado sobre cada parte do software pode ser muito importante pois permite:
+
+	- uma análise cuidada dos requisitos;
+	- um planeamento e desenho ou re-desenho do software.
+
+Contudo, a este método estão associadas várias desvantagens que podem afetar o tempo e o custo do projeto em questão: 
+
+        - o aumento tempo dispendido no desenvolvimento do projeto; 
+        - a dificuldade em corresponder às mudanças que possam surgir;
+        - a difícil colaboração por parte de contribuidores externos.
+
+
+Em suma, a escolha do processo utilizado pelos criadores deste projeto foi uma boa escolha adaptada à categoria open-source em que este se insere. O uso deste método adaptativo aliado a um modelo preditivo como o modelo em cascata, que permite o planeamento e o desenho de cada parte do software, será um boa solução para o projeto Seafile.
 
 <!--- ### **Método Ágil**
 
@@ -96,9 +110,11 @@ Apesar da utilização do método ágil em *open source* ser vantajosa relativam
 
 ---
 
-### **Projeto Seafile** 
+### **Projeto Seafile**
+
 Em relação ao projeto escolhido, deparámo-nos com algumas dificuldades, nomeadamente:
 
         - fazer build ao projeto, essencialmente nas secções mais relacionadas com a parte servidora;
         - vasto número de repositórios associados;
 
+Na elaboração deste relatório todos os membros do grupo trabalharam de forma igualitária.
