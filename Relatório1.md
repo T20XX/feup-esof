@@ -71,7 +71,7 @@ Como alternativa, temos o **modelo de Boehm’s spiral**. Este modelo é iterati
 planeamento, análise de risco, engenharia e avaliação.
 Com este método os desenvolvedores iriam tirar proveito de várias maneiras, tais como:
 	
-	-modelo muito vantajoso em relaçao a projetos de grande dimensao;
+	-modelo muito vantajoso em relação a projetos de grande dimensão;
 	-o software apresenta-se cedo;
 	-elevada análise de risco.
 
