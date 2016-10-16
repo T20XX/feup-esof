@@ -68,15 +68,15 @@ O último aspeto não afeta no entanto o projeto Seafile visto que provém de um
 ### **Modelo de Boehm’s spiral**
 
 Como alternativa, temos o **modelo de Boehm’s spiral**. Este modelo é iterativo, baseando-se em 4 fases ordenadas:
-planeamento, análise de risco, Engenharia e Avaliação.
-Com este método os desenvolvedores iriam tirar proveito de várias maneiras:
+planeamento, análise de risco, engenharia e avaliação.
+Com este método os desenvolvedores iriam tirar proveito de várias maneiras, tais como:
 	
 	-modelo muito vantajoso em relaçao a projetos de grande dimensao;
 	-o software apresenta-se cedo;
 	-elevada análise de risco.
 
 Por outro lado, este projeto começou por um grupo de estudantes,e nesse aspeto este modelo tem desvantagens 
-que poderiam levar a este modelo nao ser escolhido tais como:
+que poderiam levar a este modelo não ser escolhido tais como:
 
 	-modelo de muito custo;
 	-elevada quantidade de análise exige muitas especificações;
