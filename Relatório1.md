@@ -21,13 +21,15 @@ Tendo em conta que não é possível fazer uma análise de todos os repositório
 
 ## **Processo de Desenvolvimento de Software**
 
-O processo de desenvolvimento do Seafile baseia-se no **processo de desenvolvimento e entrega incremental** (incremental development and delivery). Este método caracteriza-se pelo desenvolvimento do produto em porções e na avaliação de cada parte antes de iniciar o desenvolvimento da próxima. Um bom exemplo desta prática é o lançamento mais recente da empresa, um novo cliente Desktop para o seu sitema de partilha de ficheiros e que se encontra em baixo descrito pelo fundador e CEO após o nosso contacto.
+São vários os processos de software existentes. Um processo difere de outro por diversas razões, tais como o tipo e a frequência de entregas, a facilidade de lidar com mudanças, incertezas e riscos, entre outros. Contudo, apesar de distintos, todos eles têm como finalidade a obtenção de um software de qualidade e eficiência. 
+
+O processo de desenvolvimento do Seafile baseia-se no **processo de desenvolvimento iterativo e incremental** (incremental development and delivery). Contrariamente aos métodos preditivos, que procuram um planeamento detalhado do projeto, este método caracteriza-se pelo desenvolvimento do produto em porções e na avaliação de cada parte antes de iniciar o desenvolvimento da próxima. Um bom exemplo desta prática é o lançamento mais recente da empresa, um novo cliente Desktop para o seu sistema de partilha de ficheiros e que se encontra em baixo descrito pelo fundador e CEO após o nosso contacto:
 
 >*"Our approach can be described best as incremental development and delivery.*
 
->*Taking our new desktop client Seafile Drive client for example (https://blogs.seafile.com/2016/09/02/announcing-seafile-drive-client-a-new-way-to-map-seafile-storage-as-virtual-drive/), we spent 3 months to build a first testing version 0.1, and let the community test it. Then we fixes bugs according to feedbacks, and released a new version 0.2 for testing within one month."*
+>*Taking our new desktop client Seafile Drive client for example (https://blogs.seafile.com/2016/09/02/announcing-seafile-drive-client-a-new-way-to-map-seafile-storage-as-virtual-drive/), we spent 3 months to build a first testing version 0.1, and let the community test it. Then we fixes bugs according to feedbacks, and released a new version 0.2 for testing within one month.*
 
->*Daniel Pan*
+>*Daniel Pan*"
 
 A utilização deste processo possibilita:
 
@@ -51,15 +53,15 @@ Como consequência desta volatilidade, é frequente lançarem-se novas funcional
 
 ### **Processo de Desenvolvimento e Entrega Incremental**
 
-Este processo apresenta vários pontos que favorecem a sua escolha para o uso num projeto deste tipo e dimensão. Apesar de ser um processo adaptativo permite incorporar um planeamento antes de se partir para a execução da parte seguinte. Além disso apresenta várias vantagens:
+Este processo apresenta vários pontos que favorecem a sua escolha para o uso num projeto deste tipo e dimensão. Apesar de ser um processo adaptativo permite incorporar um planeamento antes de se partir para a execução da parte seguinte. Além disso, apresenta várias vantagens:
 	
 	- apresenta um custo baixo de adaptação a novos requisitos e sugestões dos utilizadores;
 	- as reações ao software são mais frequentes e mais precoces o que o previne de ser um fracasso;
 	- os requisitos mais morosos podem ficar pendentes para as partes a serem produzidas mais tarde sem afetar a entrega das restantes partes.
 
-Contudo existem alguns aspetos que é preciso ter em conta ao utilizar este processo:
+Contudo, existem alguns aspetos que é preciso ter em conta ao utilizar este processo:
 
-	- a estrutura global do sistema tende a degradar-se com todas as alterações efetuadas;
+	- a estrutura global do sistema tende a degradar-se com todas as alterações efetuadas, se não for investido tempo suficiente em *refactoring*;
 	- a reutilização do código pode ser comprometida visto que não é possível prever com precisão as alterações a efetuar nas partes seguintes;
 	- o estabelecimento de um contrato inicial pode não ser possível visto que os requisitos vão incrementando a par com o software.
 
@@ -69,28 +71,26 @@ O último aspeto não afeta no entanto o projeto Seafile visto que provém de um
 
 Como alternativa, temos o **modelo de Boehm’s spiral**. Este modelo é iterativo, baseando-se em 4 fases ordenadas:
 Planeamento, análise de risco, engenharia e avaliação.
-Com este método os desenvolvedores iriam tirar proveito de várias maneiras, tais como:
+Este método é vantajoso visto que:
 	
-	- modelo muito vantajoso em relação a projetos de grande dimensão;
 	- o software apresenta-se cedo;
-	- elevada análise de risco.
+	- existe uma elevada análise de risco.
 
-Por outro lado, este projeto começou por um grupo de estudantes,e nesse aspeto este modelo tem desvantagens 
-que poderiam levar a este modelo não ser escolhido tais como:
+Por outro lado, este modelo apresenta várias desvantagens, tais como:
 
 	- modelo de custo elevado;
 	- elevada quantidade de análise exige muitas especificações;
 	- o sucesso depende muito da análise de risco.
 
 Se pensarmos num modelo capaz de complementar o processo escolhido temos o **modelo em Cascata**. Este modelo é preditivo e sequencial e baseia-se na divisão do desenvolvimento do projeto em várias fases, em que cada fase depende da terminação da anterior.
-Se for bem implementado sobre cada parte do software pode ser muito importante pois permite:
+Se for bem implementado sobre cada parte do software pode ser crucial pois permite:
 
 	- uma análise cuidada dos requisitos;
 	- um planeamento e desenho ou re-desenho do software.
 
 Contudo, a este método estão associadas várias desvantagens que podem afetar o tempo e o custo do projeto em questão: 
 
-        - o aumento tempo dispendido no desenvolvimento do projeto; 
+        - o aumento do tempo dispendido no desenvolvimento do projeto; 
         - a dificuldade em corresponder às mudanças que possam surgir;
         - a difícil colaboração por parte de contribuidores externos.
 
@@ -117,4 +117,4 @@ Em relação ao projeto escolhido, deparámo-nos com algumas dificuldades, nomea
         - fazer build ao projeto, essencialmente nas secções mais relacionadas com a parte servidora;
         - vasto número de repositórios associados;
 
-Na elaboração deste relatório todos os membros do grupo trabalharam de forma igualitária.
+Na elaboração deste relatório todos os membros do grupo trabalharam de forma equitativa.
