@@ -65,6 +65,24 @@ Contudo existem alguns aspetos que é preciso ter em conta ao utilizar este proc
 
 O último aspeto não afeta no entanto o projeto Seafile visto que provém de uma iniciativa de um grupo de estudantes e que não foi sujeita a qualquer tipo de investimento inicial externo.
 
+### **Modelo de Boehm’s spiral**
+
+Como alternativa, temos o **modelo de Boehm’s spiral**. Este modelo é iterativo, baseando-se em 4 fases ordenadas:
+planeamento, análise de risco, Engenharia e Avaliação.
+Com este método os desenvolvedores iriam tirar proveito de várias maneiras:
+	
+	-modelo muito vantajoso em relaçao a projetos de grande dimensao;
+	-o software apresenta-se cedo;
+	-elevada análise de risco.
+
+Por outro lado, este projeto começou por um grupo de estudantes,e nesse aspeto este modelo tem desvantagens 
+que poderiam levar a este modelo nao ser escolhido tais como:
+
+	-modelo de muito custo;
+	-elevada quantidade de análise exige muitas especificações;
+	-o sucesso depende muito da análise de risco.
+
+
 <!--- ### **Método Ágil**
 
 Como alternativa a este método ágil, temos, por exemplo, o **modelo em cascata**. Este modelo é preditivo e sequencial e baseia-se na divisão do desenvolvimento do projeto em várias fases, em que cada fase depende da terminação da anterior.
