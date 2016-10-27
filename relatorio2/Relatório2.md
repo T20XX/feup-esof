@@ -34,7 +34,7 @@ Proteção de Privacidade avançada:
 
 ---
 ## **Casos de Uso**
-*Actors:*
+<!-- *Actors:*
 
 - Utilizador;
 - Servidor.
@@ -55,7 +55,11 @@ Proteção de Privacidade avançada:
 - Criar wiki pessoal/grupo;
 - Editar wiki pessoal/grupo;
 - Enviar mensagens no chat de grupo ou de ficheiro;
-- Receber mensagens no chat de grupo ou de ficheiro.
+- Receber mensagens no chat de grupo ou de ficheiro. -->
+
+![alt text][usecase]
+
+[usecase]: ./usecase.jpg "Use case diagram"
 
 
 ---
