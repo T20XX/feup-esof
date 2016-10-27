@@ -33,7 +33,7 @@ Proteção de Privacidade avançada:
 - Palavra-chave nunca é mandada para o servidor.
 
 ---
-## **Casos de Uso**
+## **Diagrama de Casos de Uso**
 <!-- *Actors:*
 
 - Utilizador;
@@ -61,6 +61,9 @@ Proteção de Privacidade avançada:
 
 [usecase]: ./usecase.jpg "Use case diagram"
 
-
 ---
-## **Modelo de domínio**
+## **Modelo de domínios**
+
+![alt text][domainmodel]
+
+[domainmodel]: ./domainmodel.jpg "Domain model"
