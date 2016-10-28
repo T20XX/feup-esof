@@ -1,6 +1,9 @@
 ### **Engenharia de Software - Relatório 2**
 
 ## **Introdução**
+O *Seafile* é um projeto que se iniciou em 2009 por um grupo de estudantes da Universidade de Tsinghua, em Beijing, que tinham como ideia criar um projeto que permitisse a um número de utilizadores partilhar ficheiros entre si facilmente. Inicialmente, o objetivo era desenvolver um sistema de sincronização de ficheiros P2P onde não fosse preciso um servidor central. Contudo, com a elaboração de determinadas *features* para grupos, viram que tal não seria possível.
+
+Atualmente, o *Seafile* é usado por mais de 300 000 mil pessoas. É também usado por empresas como a Universidade de Mainz e Karpersky Lab.
 
 
 ---
