@@ -68,7 +68,8 @@ Os requisitos não funcionais podem dividir-se em:
 
 ---
 ## **Diagrama de Casos de Uso**
-<!-- *Actors:*
+
+*Actors:*
 
 - Utilizador;
 - Servidor.
@@ -89,7 +90,7 @@ Os requisitos não funcionais podem dividir-se em:
 - Criar wiki pessoal/grupo;
 - Editar wiki pessoal/grupo;
 - Enviar mensagens no chat de grupo ou de ficheiro;
-- Receber mensagens no chat de grupo ou de ficheiro. -->
+- Receber mensagens no chat de grupo ou de ficheiro.
 
 ![alt text][usecase]
 
