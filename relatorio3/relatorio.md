@@ -86,3 +86,4 @@ O principal elemento de um diagrama de atividade é a atividade em si, sendo est
 <a name="contribuition"/>
 ## **Contribuição do Grupo**
 
+A contribuição de todos os elementos do grupo foi igual
