@@ -24,6 +24,7 @@
 ---
 <a name="deploymentview"/>
 ## **Vista de Distribuição**
+Os diagramas de distribuição em UML modelam a arquitetura física de um sistema e mostram a interação das componentes de *software* com o *hardware* do sistema.
 
 ---
 <a name="processview"/>
