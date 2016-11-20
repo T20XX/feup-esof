@@ -56,6 +56,10 @@ Desvantagens:
 <a name="logicalview"/>
 ## **Vista Lógica**
 A vista lógica procura mostrar as diferentes partes que formam o sistema e as suas relações.
+
+<img src="Resources/LogicalView.jpg" width="100%" alt="Seafile Implementation Diagram"/>
+
+
 ---
 <a name="implementationview"/>
 ## **Vista de Implementação**
