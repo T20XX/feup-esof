@@ -21,6 +21,14 @@ Por fim, será revelado o processo efetuado para a correção do *bug* escolhido
 <a name="testability"/>
 ## **Testabilidade do *Software***
 
+**Controlabilidade**
+
+A controlabilidade corresponde ao grau de facilidade com que é possível controlar o estado de uma *CUT* (*Component Under Test*).
+
+Relativamente à aplicação android do *Seafile* (*Seadroid*), uma vez que é possível aceder às propriedades de um objeto, tanto aos seus métodos como atributos, com relativa facilidade, num dado instante, é razóavel
+admitir que é possível controlar o estado do mesmo.
+
+Contudo, esta aplicação móvel interage com outros módulos, relativos ao servidor do *Seafile*, o que dificulta, assim, o acesso aos componentes e integrantes dos mesmos. Deste modo, pode considerar-se que, neste caso, existe uma controlabilidade reduzida.
 
 ---
 <a name="tests"/>
