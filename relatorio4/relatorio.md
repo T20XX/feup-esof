@@ -30,16 +30,15 @@ admitir que é possível controlar o estado do mesmo.
 
 Contudo, esta aplicação móvel interage com outros módulos, relativos ao servidor do *Seafile*, o que dificulta, assim, o acesso aos componentes e integrantes dos mesmos. Deste modo, pode considerar-se que, neste caso, existe uma controlabilidade reduzida.
 
-
 **Observabilidade**
 
 Quanto maior é a facilidade em verificar os resultados de um teste, maior é o grau de observabilidade de um software.
 
-O *Seadroid* utiliza a *framework **Robolectric*** que possibilita não só a escrita de testes unitários, mas também permite que os testes unitários sejam executados sem que um emulador seja necessário. O *Robolectric* possibilita a execução de apenas um teste unitário ou de todos os testes. 
+O *Seadroid* utiliza a *framework* ***Robolectric*** que possibilita não só a escrita de testes unitários, mas também permite que os testes unitários sejam executados sem que um emulador seja necessário. O *Robolectric* possibilita a execução de apenas um teste unitário ou de todos os testes. 
 
 Com a utilização desta *framework* é fácil observar os resultados dos vários testes incluídos no projeto, como se pode observar na seguinte imagem:
 
-<img src="resources/testes.png" width="49%" alt="Testes"/>
+<img src="resources/testes.PNG" width="49%" alt="Testes"/>
 
 Outra ferramenta utilizada pela aplicação é ***Travis CI***. Esta ferramenta é usada para realizar testes de intregração sobre o código submetido pelos vários colaboradores e permite a observação do resultado dos vários testes realizados.
 
