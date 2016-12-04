@@ -30,11 +30,60 @@ admitir que é possível controlar o estado do mesmo.
 
 Contudo, esta aplicação móvel interage com outros módulos, relativos ao servidor do *Seafile*, o que dificulta, assim, o acesso aos componentes e integrantes dos mesmos. Deste modo, pode considerar-se que, neste caso, existe uma controlabilidade reduzida.
 
+
+**Observabilidade**
+
+Quanto maior é a facilidade em verificar os resultados de um teste, maior é o grau de observabilidade de um software.
+
+O *Seadroid* utiliza a *framework **Robolectric*** que possibilita não só a escrita de testes unitários, mas também permite que os testes unitários sejam executados sem que um emulador seja necessário. O *Robolectric* possibilita a execução de apenas um teste unitário ou de todos os testes. 
+
+Com a utilização desta *framework* é fácil observar os resultados dos vários testes incluídos no projeto, como se pode observar na seguinte imagem:
+
+<img src="resources/testes.png" width="49%" alt="Testes"/>
+
+Outra ferramenta utilizada pela aplicação é ***Travis CI***. Esta ferramenta é usada para realizar testes de intregração sobre o código submetido pelos vários colaboradores e permite a observação do resultado dos vários testes realizados.
+
+
+**Isolabilidade**
+
+A isolabilidade refere-se ao grau em que um CUT pode ser testado isoladamente.
+
+Considerando o *Seadroid* um módulo do *Seafile*, as dependências são demasiadas o que dificulta o isolamento dos testes que dependam de módulos exteriores.
+
+Por exemplo, se se pretender testar uma função do *Seadroid* que utilize uma outra função do *Seafile*, mesmo que a função do primeiro esteja completamente correta, o teste pode falhar.
+
+
+**Separação de tarefas**
+
+A separação de tarefas é um aspeto crucial na elaboração de qualquer projeto, principalmente projetos com maior visibilidade e dimensão. Não dar a devida atenção a este aspeto resulta numa difícil manutenção e desenvolvimento do projeto.
+
+Relativamente ao *Seadroid*, pode considerar-se que o projeto está muito bem estruturado. Existem *packages* para cada componente, com classes e métodos respetivos às mesmas. Funcionalidades mais complexas são divididas em funcionalidades menores e mais simples.
+
+
+**Inteligibilidade**
+
+Tanto o *Seadroid* como o *Seafile* não apresentam documentação disponível.
+
+Contudo, devido à eficiente separação de tarefas, o código é percetível. Um outro aspeto fundamental que contribui para a inteligibilidade de cada secção de código, é a evidência na escolha de nomes, tanto dos *packages*, como das classes e métodos.
+
+
+**Heterogeneidade**
+
+O *Seadroid* é um projeto com uma heterogeneidade considerável, visto que são várias as tecnologias externas utilizadas. Estas tecnologias estão declaradas na lista de dependências do ficheiro que permite a compilação do programa. As principais tecnologias são:
+
+- *JUnit*;
+- *Http Request*;
+- *Robolectric*;
+- *Travis CI*.
+
+Apesar da clara vantagem de implementação das funcionalidades que estas ferramentas disponibilizam, existem algumas adversidades. Aquando a utilização de uma tecnologia não tão conhecida nem fiável, é necessário desenvolver testes para cobrir eventuais falhas.
+ 
+
 ---
 <a name="tests"/>
 ## **Estatísticas e análise dos testes**
 
-Uma plataforma utilizada pelo Seadroid é **Travis CI**.
+Como já referido anteriormente, uma plataforma utilizada pelo Seadroid é **Travis CI**.
 Esta plataforma permite garantir que todos os commits e pull requests podem ser integrados no código atual sem o afetar através da realização de builds automáticas.
 
 Ficheiro para a criação de builds automatizadas (*.travis.yml*):
