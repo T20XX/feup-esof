@@ -12,10 +12,14 @@
 <a name="introduction"/>
 ## **Introdução**
 
+O objetivo deste relatório consiste em analisar os processos de verificação e validação seguidos no desenvolvimento da aplicação android do *Seafile*.
+Deste modo, irá ser explorada a testabilidade do *software*, analisando os graus de controlabilidade, de observabilidade, de isolabilidade, de separação, de inteligibilidade e de heterogeneidade associados aos componentes do projeto.
+Posto isto, serão apresentadas estatísticas relativas à verificação e validação do *software*, como por exemplo, o número de testes.
+Por fim, será revelado o processo efetuado para a correção do *bug* escolhido pelo grupo.
 
 ---
 <a name="testability"/>
-## **Software Testability and Reviews**
+## **Testabilidade do *Software***
 
 
 ---
