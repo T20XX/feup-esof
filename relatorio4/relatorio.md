@@ -21,12 +21,6 @@ Por fim, será revelado o processo efetuado para a correção do *bug* escolhido
 <a name="testability"/>
 ## **Testabilidade do *Software***
 
-O nosso projeto apenas tem 2 teste na aplição de android. A coverage do codigo é muito baixa, nas classes apenas 36%(4/11), nos métodos(6/66) e nas linhas  4%(22/503).
-
-<img src="resources/codecoverage.PNG" width="49%" alt="Coverage"/>
-
-
-
 **Controlabilidade**
 
 A controlabilidade corresponde ao grau de facilidade com que é possível controlar o estado de uma *CUT* (*Component Under Test*).
@@ -87,6 +81,7 @@ Apesar da clara vantagem de implementação das funcionalidades que estas ferram
 ---
 <a name="tests"/>
 ## **Estatísticas e análise dos testes**
+Como podemos ver na imagem seguinte, o nosso projeto apenas tem 2 funções teste na aplição de android, cujo dentro dessas mesmas apenas testam 11 igualidades, o que achamos muito pouco. A coverage do codigo é muito baixa, nas classes apenas 36%(4/11), nos métodos(6/66) e nas linhas  4%(22/503).
 
 <img src="resources/code coverage.png" width="100%" alt="Code coverage"/>
 
