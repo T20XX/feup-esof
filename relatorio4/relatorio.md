@@ -82,6 +82,9 @@ Apesar da clara vantagem de implementação das funcionalidades que estas ferram
 <a name="tests"/>
 ## **Estatísticas e análise dos testes**
 
+<img src="resources/code coverage.png" width="100%" alt="Code coverage"/>
+
+
 Como já referido anteriormente, uma plataforma utilizada pelo Seadroid é **Travis CI**.
 Esta plataforma permite garantir que todos os commits e pull requests podem ser integrados no código atual sem o afetar através da realização de builds automáticas.
 
