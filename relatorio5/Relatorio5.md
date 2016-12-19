@@ -1,3 +1,58 @@
+### **Engenharia de Software - Relatório 5**
+
+<a name="index"/>
+## **Índice**
+1. [Introdução](#introduction)
+2. [Manutenção do Software](#manutencao)
+3. [Nova feature](#feature)
+4. [Pull Request](#pullrequest)
+5. [Contribuição do Grupo](#contribuition)
+
+---
+<a name="introduction"/>
+## **Introdução**
+
+---
+<a name="manutencao"/>
+## **Manutenção do Software**
+
+---
+<a name="feature"/>
+## **Nova feature**
+### **Captura de vídeo e upload direto**
+
+#### **Descrição**
+
+A feature implementada trata-se da adição da possibilidade aos utilizadores da aplicação *android* de capturarem um vídeo e fazerem upload para a sua *library* diretamente a partir da aplicação. As capturas de ecrã a seguir apresentadas descrevem a *feature* desenvolvida.
+
+Novo botão *"Capture a video"* que permite aos utilizadores acederem à câmara para gravação do vídeo:
+
+<img src="resources/ss1.png" width="50%" alt="Botao capture video"/>
+
+
+A aplicação executa a câmara em modo vídeo permitindo os utilizadores fazerem a gravação do vídeo com todas as funcionalidades permitidas pelos seus smartphones:
+
+<img src="resources/ss2.png" width="50%" alt="Camara"/>
+
+
+Após a gravação do vídeo é permitido aos utilizadores reverem a gravação e confirmar ou descartar a mesma:
+
+<img src="resources/ss3.png" width="50%" alt="Confirmacao video"/>
+
+
+Se a gravação for validada começa então a ser feito o seu *upload* para a *library* pretendida:
+
+<img src="resources/ss4.png" width="50%" alt="Video upload"/>
+
+
+Se o *upload* do vídeo for realizado com sucesso o vídeo ficará com a extensão *.mp4 e o formato AnoMesDiaHorasMinutosSegundos
+
+<img src="resources/ss5.png" width="50%" alt="Formato video"/>
+
+
+#### **Implementação**
+
+
 Na aplicação android havia uma opção de tirar uma fotografia diretamente da aplicação e dar upload para uma pasta. Assim, nós pensámos que a implementação de tirar um vídeo diretamente da aplicação, embora não estar na "wishlist" deles, enquadrava-se na aplicação.
 A nível de código, com os trabalhos passados, tinhamos ligeiramente noção onde eram implementadas certas funcionalidades, sendo a que nos interessava era uma função do browser que era tirar uma foto, assim fomos ver o exemplo de código que permitia tirar uma fotografia e orientámo-nos por aí.
 A partir do código base fomos pesquisar o que seria necessário alterar para criar esta nova feature.
@@ -126,3 +181,20 @@ case CAPTURE_VIDEO_REQUEST:
 
                 }
                 break;
+```
+
+---
+<a name="pullrequest"/>
+## **Pull Request**
+
+O link para o **PULL REQUEST** encontra-se apresentado abaixo. O mesmo encontra-se ainda em aberto e não fomos contactados por nenhum membro da equipa do projeto.
+A build encontra-se assinalada como *failing* devido aos aspetos mencionados no relatório anterior apresentado, sem estar relacionados com a adição de código proposta.
+
+https://github.com/haiwen/seadroid/pull/603
+
+
+---
+<a name="contribuition"/>
+## **Contribuição do Grupo**
+
+A contribuição de todos os elementos do grupo foi igual.
