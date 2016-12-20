@@ -12,9 +12,71 @@
 <a name="introduction"/>
 ## **Introdução**
 
+O *Seafile* é um projeto que tem vindo a ser desenvolvido desde 2012, encontrando-se num estado já bastante maturo, o que dificulta a adição de novas funcionalidades ao projeto. Contudo, o projeto está aberto ao desenvolvimento de novas funcionalidades desde que estas vão de encontro com os interesses do mesmo. Ao longo deste relatório, será descrito todo o processo envolvido na implementação desta nova *feature*.
+
 ---
 <a name="manutencao"/>
 ## **Manutenção do Software**
+
+### Análise métrica do *Better Code Hub* 
+
+<img src="resources/bch1.PNG" alt="Write Short Units of Code"/>
+
+Como é possível observar pela imagem acima, na barra colorida, existe uma parte do código considerável que peca pela falta de divisão e estruturação, o que dificulta não só a sua compreensão, mas também a reutilização e testabilidade do código.
+
+-
+
+<img src="resources/bch2.PNG" alt="Write Simple Units of Code"/>
+
+Verifica-se um problema semelhante ao anterior. Apesar da secção de código demasiado complexo corresponder a uma pequena percentagem, esta ultrapassa a linha do considerável, o que traz problemas semelhantes ao mencionados em cima.
+
+-
+
+<img src="resources/bch3.PNG" alt="Write Code Once"/>
+
+Mais uma vez, o *Seafile* revela problemas a nível de estruturação: a existência de código repetido.
+
+-
+
+<img src="resources/bch4.PNG" alt="Keep Unit Interfaces Small"/>
+
+Apesar do código não passar nesta *guideline*, a percentagem que contribui para um mau resultado é pequena.
+
+-
+
+<img src="resources/bch5.PNG" alt="Separate Concerns in Modules"/>
+
+Neste aspeto, o *Seafile* apresenta resultados positivos, pois há uma boa divisão de módulos.
+
+-
+
+<img src="resources/bch6.PNG" alt="Couple Architecture Components Loosely"/>
+
+Nesta área, o *Seafile* apresenta resultados bastante satisfatórios, mostrando uma independência de 100% dos *components*.
+
+-
+
+<img src="resources/bch7.PNG" alt="Keep Architecture Components Balanced"/>
+
+Observando a imagem em cima, pode verificar-se que o *component scripts* é bastante mais pesado que os restantes, o que provoca um certo desequilíbrio entre os vários *components*. Contudo, se tivermos atenção aos restantes *components*, podemos verificar que não há um grande desfasamento entre eles.
+
+-
+
+<img src="resources/bch8.PNG" alt="Keep Your Codebase Small"/>
+
+Pode observar-se que o *Seafile* passa nesta *guideline*, o que revela que a manutenção de código não constitui um obstáculo.
+
+-
+
+<img src="resources/bch9.PNG" alt="Automate Tests"/>
+
+Como foi referido no relatório anterior, o *Seafile* deixa muito a desejar quanto à cobertura dos testes que apresenta. Tendo em conta a dimensão do projeto, a quantidade de testes existentes deveria ser muito superior.
+
+-
+
+<img src="resources/bch10.PNG" alt="Write Clean Code"/>
+
+Neste campo, pode verificar-se que existe um atenção especial por parte da equipa para manter o seu código limpo e sem *code smells*, o que facilita, desta forma, a manutenção do projeto.
 
 ---
 <a name="feature"/>
