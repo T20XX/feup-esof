@@ -1,1 +1,3 @@
-# ESOF-FEUP
+# ESOF
+
+Engenharia de Software (FEUP)
